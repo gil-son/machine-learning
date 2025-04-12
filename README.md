@@ -1,6 +1,6 @@
-# <img src="https://cdn-icons-png.flaticon.com/512/6062/6062189.png" width="60"/> Types of Machine Learning
+# <img src="https://cdn-icons-png.flaticon.com/512/6062/6062189.png" width="80"/> Types of Machine Learning
 
-## <img src="https://cdn-icons-png.flaticon.com/512/6229/6229938.png" width="60"/> Supervised Learning
+## <img src="https://cdn-icons-png.flaticon.com/512/6229/6229938.png" width="70"/> Supervised Learning
 This is by far the most widely used type of ML in real-world applications.
 
 - **What it is:** You train a model on labeled data (i.e., the input and expected output are both known).
@@ -13,7 +13,7 @@ This is by far the most widely used type of ML in real-world applications.
 ### ✅ Popular Algorithms
 
 <details>
-  <summary>📊 Linear Regression</summary>
+  <summary><img src="https://cdn-user-icons.flaticon.com/195846/195846442/1744487422513.svg?token=exp=1744488323~hmac=5ae65620d3529f7af31a48da489995dc" width="50"/> Linear Regression</summary>
 
 - **Concept:** Predicts a continuous value (e.g., student test score) based on one or more input features.
 - **Essential Math:**
@@ -27,7 +27,7 @@ This is by far the most widely used type of ML in real-world applications.
 </details>
 
 <details>
-  <summary>🧮 Logistic Regression</summary>
+  <summary><img src="https://cdn-user-icons.flaticon.com/195846/195846442/1744487377865.svg?token=exp=1744488299~hmac=57311090196dd99a26f684d0e4702208" width="50"/> Logistic Regression</summary>
 
 - **Concept:** Used for binary classification (e.g., pass/fail, spam/ham).
 - **Essential Math:**
@@ -43,7 +43,7 @@ This is by far the most widely used type of ML in real-world applications.
 </details>
 
 <details>
-  <summary>🌳 Decision Trees</summary>
+  <summary><img src="https://cdn-user-icons.flaticon.com/195870/195870656/1744488394393.svg?token=exp=1744489295~hmac=2f63d1db72040fa1321d100cdad363ff" width="50"/> Decision Trees</summary>
 
 - **Concept:** A flowchart-like structure where each internal node splits the data based on a feature.
 - **Essential Math:**
@@ -59,7 +59,7 @@ This is by far the most widely used type of ML in real-world applications.
 </details>
 
 <details>
-  <summary>🌲 Random Forest</summary>
+  <summary><img src="https://i.ibb.co/676KwYXF/random-forest.png" width="50"/> Random Forest</summary>
 
 - **Concept:** An ensemble of decision trees trained on random subsets of data and features.
 - **Essential Math:**
@@ -76,7 +76,7 @@ This is by far the most widely used type of ML in real-world applications.
 </details>
 
 <details>
-  <summary>📐 Support Vector Machines (SVM)</summary>
+  <summary><img src="https://i.ibb.co/4R3pTJyj/svm.png" width="50"/>  Support Vector Machines (SVM)</summary>
 
 - **Concept:**
   - Finds the hyperplane that best separates the data into classes.
@@ -93,7 +93,7 @@ This is by far the most widely used type of ML in real-world applications.
 </details>
 
 <details>
-  <summary>👥 k-Nearest Neighbors (kNN)</summary>
+  <summary><img src="https://i.ibb.co/MkS0BttC/knn.png" width="50"/> k-Nearest Neighbors (kNN)</summary>
 
 - **Concept:** Classifies a sample based on the majority vote (classification) or average (regression) of its k closest neighbors.
 - **Essential Math:**
