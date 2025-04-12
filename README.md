@@ -1,6 +1,6 @@
-# 🧠 Types of Machine Learning
+# <img src="https://cdn-icons-png.flaticon.com/512/6062/6062189.png" width="60"/> Types of Machine Learning
 
-## 💡 1. Supervised Learning
+## <img src="https://cdn-icons-png.flaticon.com/512/6229/6229938.png" width="60"/> Supervised Learning
 This is by far the most widely used type of ML in real-world applications.
 
 - **What it is:** You train a model on labeled data (i.e., the input and expected output are both known).
@@ -108,7 +108,7 @@ This is by far the most widely used type of ML in real-world applications.
 
 ---
 
-## 🧠 2. Unsupervised Learning
+## <img src="https://cdn-icons-png.flaticon.com/512/6062/6062161.png" width="60"/> Unsupervised Learning
 
 - **What it is:** The model tries to find patterns and groupings in the data without labeled outputs.
 - **Use Cases:**
@@ -123,7 +123,7 @@ This is by far the most widely used type of ML in real-world applications.
 
 ---
 
-## 🤖 3. Reinforcement Learning
+## <img src="https://cdn-icons-png.flaticon.com/512/10087/10087719.png" width="60"/> Reinforcement Learning
 
 - **What it is:** An agent learns to make decisions by interacting with an environment and getting feedback (rewards or penalties).
 - **Use Cases:**
@@ -134,7 +134,7 @@ This is by far the most widely used type of ML in real-world applications.
 
 ---
 
-## 🧪 4. Semi-Supervised Learning
+## <img src="https://cdn-icons-png.flaticon.com/512/1713/1713891.png" width="60"/> Semi-Supervised Learning
 
 - **What it is:** Combines a small amount of labeled data with a large amount of unlabeled data to improve learning when labeling is expensive.
 - **Use Cases:**
