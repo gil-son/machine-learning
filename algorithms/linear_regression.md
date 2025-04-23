@@ -25,11 +25,118 @@ The formula is:
 - or: f(x) = w * x + b  
 - or: y = β₁x + β₀
 
-Where:
+Where:  
 - ŷ = predicted output  
 - x = input feature (independent variable)  
 - w = weight (slope of the line — shows how much y changes per unit change in x)  
 - b = bias or intercept (where the line crosses the y-axis — vertical offset)
+
+---
+
+### Examples
+
+<details>
+  <summary>Example 1</summary>
+  <br/>
+
+  #### Predicting Student Exam Scores Based on Study Hours
+  
+  Imagine you're trying to predict how well a student will score on an exam based on how many hours they study.
+
+  🧾 Dataset (Hours Studied vs Exam Score)
+
+  | Hours Studied (x) | Exam Score (y) |
+  |-------------------|----------------|
+  | 1                 | 52             |
+  | 2                 | 55             |
+  | 3                 | 60             |
+  | 4                 | 63             |
+  | 5                 | 66             |
+  | 6                 | 70             |
+  | 7                 | 74             |
+  | 8                 | 78             |
+  | 9                 | 82             |
+  | 10                | 85             |
+
+✅ Now, it's important to identify the "common difference of score" for each hour to find the **slope** value:
+
+- 52 → 55 (+3)  
+- 55 → 60 (+5)  
+- 60 → 63 (+3)  
+- 63 → 66 (+3)  
+- 66 → 70 (+4)  
+- 70 → 74 (+4)  
+- 74 → 78 (+4)  
+- 78 → 82 (+4)  
+- 82 → 85 (+3)  
+
+We can observe that, on average, the score increases by about **+3.72** per hour studied.
+
+So if the slope is ~3.72, then:  
+- When you increase `x` (hours studied) by 1, the predicted `y` (score) goes up by ~3.72 on average.
+
+That’s just like saying:  
+> “This behavior is similar to an arithmetic sequence, where the output increases by a constant amount for each unit increase in the input — which happens when the data follows a linear trend.”
+
+---
+
+🎯 Now, it's important to find the predicted value when x = 0 — the **Intercept** value.
+
+The intercept (b) is the starting point of the line. It answers the question:  
+> “What would the predicted score be if no hours were studied?”
+
+So in this case:
+
+If 1 hour = 52 score  
+and the average increase is ~3.72  
+then we can subtract 3.72 to estimate the score at 0 hours:
+
+**52 - 3.72 = 48.07**
+
+So:  
+**Intercept b ≈ 48.07**
+
+This means the model predicts that a student who studies 0 hours might still score ~48.07, based on the dataset trend.  
+*It's not a real score observed in the data — it's what the model extrapolates from the trend.*
+
+> 💡 Note: This is a simplified way to estimate the intercept. In real-world regression, the model finds the intercept and slope by minimizing the error across all points using the **Least Squares Method**.
+
+---
+
+📊 **Visual Analogy:**
+
+If you imagine drawing a line through all the points on a scatter plot:  
+- The **slope** determines how steep the line is (how fast scores go up as hours increase).  
+- The **intercept** is where the line starts on the y-axis when x is 0.
+
+---
+
+🔧 **Step-by-Step: Applying Simple Linear Regression**
+
+Let’s say we fit a Simple Linear Regression model to this data and it gives us:
+
+- w (slope) = 3.72  
+- b (intercept) = 48.07
+
+---
+
+🧮 **The Linear Model**
+
+**𝑦 = 3.72𝑥 + 48.07**
+
+Where:  
+- `x`: hours studied  
+- `ŷ`: predicted exam score
+
+---
+
+🧾 **Prediction Example**
+
+How well will a student do if they study for 7.5 hours?
+
+**y = 3.72 × 7.5 + 48.07 = 27.9 + 48.07 = 75.97**
+
+</details>
 
 ---
 
