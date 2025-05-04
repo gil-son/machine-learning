@@ -149,3 +149,10 @@ This is by far the most widely used type of ML in real-world applications.
   - Graph-based methods
 - **Python Libraries:** `scikit-learn`, `sklearn.semi_supervised`, `TensorFlow`, `PyTorch`
 
+
+<hr/>
+<div align="center">
+  <img src="https://i.ibb.co/kgNSnpv/git-support.png">
+</div>
+
+
