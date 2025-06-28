@@ -181,6 +181,29 @@ This is by far the most widely used type of ML in real-world applications.
   A system that suggests **items** (movies, products, etc.) to users based on their preferences or behaviors.  
   **Example:** Netflix recommending **movies or shows** based on your watch history.
 
+<hr/>
+
+# <img src="https://cdn-icons-png.flaticon.com/512/6062/6062189.png" width="80"/> Machine Learning Model Lifecycle
+
+- **Problem Definition**  
+  Clearly define the **objective** of the machine learning task.  
+  **Example:** Predict customer churn or classify product reviews as positive or negative.
+
+- **Data Collection**  
+  Gather relevant and sufficient **raw data** from various sources like databases, APIs, sensors, or manual input.  
+  **Example:** Collecting user behavior logs or survey results.
+
+- **Data Preparation**  
+  Clean, transform, and structure the data for training. This includes **handling missing values**, **encoding categories**, and **normalizing** values.  
+  **Example:** Converting text into numeric form or removing outliers.
+
+- **Model Development and Evaluation**  
+  Choose a model type, train it using prepared data, and evaluate its **accuracy, precision, recall**, or other relevant metrics.  
+  **Example:** Training a decision tree and evaluating it using cross-validation.
+
+- **Model Deployment**  
+  Integrate the trained model into a **production environment** where it can receive real input and make predictions.  
+  **Example:** Deploying a fraud detection model via an API to monitor real-time transactions.
 
 
 <hr/>
