@@ -149,6 +149,39 @@ This is by far the most widely used type of ML in real-world applications.
   - Graph-based methods
 - **Python Libraries:** `scikit-learn`, `sklearn.semi_supervised`, `TensorFlow`, `PyTorch`
 
+<hr/>
+
+# <img src="https://cdn-icons-png.flaticon.com/512/6062/6062189.png" width="80"/> Machine Learning Techniques
+
+- **Classification**  
+  A supervised learning task where the model learns to categorize data into predefined **classes or labels**.  
+  **Example:** Predicting if an email is *spam* or *not spam*.
+
+- **Regression**  
+  A supervised learning task where the goal is to predict a **continuous value**.  
+  **Example:** Predicting the **price of a house** based on size, location, etc.
+
+- **Clustering**  
+  An **unsupervised learning** method where the algorithm groups data into **clusters** based on similarity—without predefined labels.  
+  **Example:** Segmenting customers into groups based on their behavior or purchases.
+
+- **Anomaly Detection**  
+  Identifying data points that are **unusual or deviate** significantly from the majority.  
+  **Example:** Detecting **fraudulent credit card transactions**.
+
+- **Sequence Mining**  
+  Analyzing and identifying **patterns in ordered data** (sequences), especially over time.  
+  **Example:** Finding common sequences in **customer purchases** or website navigation.
+
+- **Dimension Reduction**  
+  Reducing the number of features (dimensions) in a dataset while keeping important information—used to simplify models and visualize high-dimensional data.  
+  **Example:** Using **PCA (Principal Component Analysis)** to reduce image data with thousands of pixels into just a few features.
+
+- **Recommendation System**  
+  A system that suggests **items** (movies, products, etc.) to users based on their preferences or behaviors.  
+  **Example:** Netflix recommending **movies or shows** based on your watch history.
+
+
 
 <hr/>
 <div align="center">
