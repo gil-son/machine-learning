@@ -64,6 +64,7 @@ machine-learning/
 ```
 </details>
 
+<hr/>
 
 <details> <summary> <h2><img src="https://cdn-icons-png.flaticon.com/512/6062/6062189.png" width="80"/> What is Machine Learning?</h2></summary>
 
@@ -78,9 +79,11 @@ A machine learning model learns to recommend movies based on a user's viewing hi
 
 </details>
 
+<hr/>
+
 <details> <summary> <h2><img src="https://cdn-icons-png.flaticon.com/512/6062/6062189.png" width="80"/> Types of Machine Learning</h2></summary>
 
-### <img src="https://cdn-icons-png.flaticon.com/512/6229/6229938.png" width="70"/> Supervised Learning
+<h3><img src="https://cdn-icons-png.flaticon.com/512/6229/6229938.png" width="70"/> Supervised Learning </h3>
 This is by far the most widely used type of ML in real-world applications.
 
 - **What it is:** You train a model on labeled data (i.e., the input and expected output are both known).
@@ -90,7 +93,7 @@ This is by far the most widely used type of ML in real-world applications.
   - Medical diagnosis
   - House price prediction
 
-#### ✅ Popular Algorithms
+<h4> ✅ Popular Algorithms </h4>
 
 <details>
   <summary><img src="https://cdn-icons-png.flaticon.com/512/2620/2620536.png" width="50"/> Linear Regression</summary>
@@ -186,9 +189,9 @@ This is by far the most widely used type of ML in real-world applications.
 
 </details>
 
----
+<hr/>
 
-### <img src="https://cdn-icons-png.flaticon.com/512/6062/6062161.png" width="60"/> Unsupervised Learning
+<h3> <img src="https://cdn-icons-png.flaticon.com/512/6062/6062161.png" width="60"/> Unsupervised Learning </h3>
 
 - **What it is:** The model tries to find patterns and groupings in the data without labeled outputs.
 - **Use Cases:**
@@ -201,9 +204,9 @@ This is by far the most widely used type of ML in real-world applications.
   - PCA (Principal Component Analysis)
 - **Python Libraries:** `scikit-learn`, `scipy`, `matplotlib`
 
----
+<hr/>
 
-### <img src="https://cdn-icons-png.flaticon.com/512/10087/10087719.png" width="60"/> Reinforcement Learning
+<h3> <img src="https://cdn-icons-png.flaticon.com/512/10087/10087719.png" width="60"/> Reinforcement Learning </h3>
 
 - **What it is:** An agent learns to make decisions by interacting with an environment and getting feedback (rewards or penalties).
 - **Use Cases:**
@@ -212,9 +215,9 @@ This is by far the most widely used type of ML in real-world applications.
   - Self-driving cars
 - **Popular Libraries:** `OpenAI Gym`, `Stable-Baselines`, `TensorFlow`, `PyTorch`
 
----
+<hr/>
 
-### <img src="https://cdn-icons-png.flaticon.com/512/1713/1713891.png" width="60"/> Semi-Supervised Learning
+<h3> <img src="https://cdn-icons-png.flaticon.com/512/1713/1713891.png" width="60"/> Semi-Supervised Learning </h3>
 
 - **What it is:** Combines a small amount of labeled data with a large amount of unlabeled data to improve learning when labeling is expensive.
 - **Use Cases:**
