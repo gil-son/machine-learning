@@ -1,4 +1,4 @@
-### <img src="https://cdn-user-icons.flaticon.com/195870/195870656/1744488394393.svg?token=exp=1744489295~hmac=2f63d1db72040fa1321d100cdad363ff" width="50"/> Decision Trees
+### <img src="https://cdn-icons-png.flaticon.com/512/1960/1960357.png" width="50"/> Decision Trees
 
 ---
 
@@ -13,25 +13,26 @@ It works like a **flowchart**:
 
 For example
 
-```
+```mermaid
+
+    graph TD
     A[Start - Input Data] --> B{Test Feature}
-    B -->|Yes| C[Prediction A]
-    B -->|No| D{Test Another Feature}
-    D -->|Yes| E[Prediction B]
-    D -->|No| F[Prediction C]
+    B -- Yes --> C[Prediction A]
+    B -- No --> D{Test Another Feature}
+    D -- Yes --> E[Prediction B]
+    D -- No --> F[Prediction C]
+
 ```
 
-What it shows:
-A is the entry point where the decision tree receives input data.
+This diagram shows:
 
-B is an internal node testing a feature.
-
-Depending on the result (Yes or No), the flow either:
-
-goes to a leaf node (like C or E, where a prediction is made), or
-
-continues to another decision node (like D).
-
+- A is the starting point, where data enters the tree.
+- B is the first decision node.
+- If the feature test is Yes, it leads to C, a prediction.
+- If No, it goes to D, another test.
+- D then routes to:
+- E if Yes (another prediction),
+- F if No (a third prediction).
 
 ---
 
