@@ -1,6 +1,73 @@
-# <img src="https://cdn-icons-png.flaticon.com/512/6062/6062189.png" width="80"/> Types of Machine Learning
+# <img src="https://cdn-icons-png.flaticon.com/512/6062/6062189.png" width="80"/> Repository Purpose
 
-## <img src="https://cdn-icons-png.flaticon.com/512/6229/6229938.png" width="70"/> Supervised Learning
+
+This repository is a comprehensive guide to Machine Learning, designed to bridge theoretical concepts with practical, hands-on implementations. It serves as a learning lab for anyone—from beginners to practitioners—looking to deepen their understanding of core ML foundations and algorithms.
+
+🎯 Goals
+- 🧠 Demystify Machine Learning through structured explanations and illustrative examples
+- 🗂️ Organize ML algorithms into key paradigms: Supervised, Unsupervised, Semi-Supervised, and Reinforcement Learning
+- 💻 Enable experimentation with interactive Jupyter Notebooks for real-world learning
+- ➗ Support understanding of mathematical concepts and simplify complex topics like optimization, statistics, and linear algebra
+
+ 
+<details> <summary> <h2><img src="https://cdn-icons-png.flaticon.com/512/18310/18310876.png" width="80"/>  Repository Structure </h2></summary>
+  
+```
+machine-learning/
+│
+├── README.md                             # High-level introduction to Machine Learning
+│
+├── supervised/
+│   ├── concepts.md                       # Core concepts: labeled data, overfitting, etc.
+│   ├── 01.linear_regression.md
+│   ├── 02.logistic_regression.md
+│   ├── 03.k_nearest_neighbors.md
+│   ├── 04.naive_bayes.md
+│   ├── 05.svm.md
+│   ├── 06.decision_trees.md
+│   ├── 07.random_forest.md
+│   ├── 08.gradient_boosting.md
+│   ├── 09.neural_networks.md
+│   ├── algorithms/
+│   └── notebooks/
+│
+├── unsupervised/
+│   ├── concepts.md                       # Key ideas: clustering, dimensionality reduction, etc.
+│   ├── 01.k_means.md
+│   ├── 02.dbscan.md
+│   ├── 03.hierarchical_clustering.md
+│   ├── 04.pca.md
+│   ├── 05.tsne.md
+│   ├── algorithms/
+│   └── notebooks/
+│
+├── reinforcement_learning/
+│   ├── concepts.md                       # Basics of agents, environments, rewards, etc.
+│   ├── 01.q_learning.md
+│   ├── 02.sarsa.md
+│   ├── 03.deep_q_network.md
+│   ├── 04.policy_gradient.md
+│   ├── algorithms/
+│   └── notebooks/
+│
+├── semi_supervised_learning/
+│   ├── concepts.md                       # Hybrid between supervised and unsupervised
+│   ├── 01.self_training.md
+│   ├── 02.label_propagation.md
+│   ├── algorithms/
+│   └── notebooks/
+│
+└── shared_resources/
+    ├── datasets/                         # Sample datasets used across topics
+    ├── utils/                            # Reusable utility functions
+    └── references.md                     # Useful academic references and links
+```
+</details>
+
+
+<details> <summary> <h2><img src="https://cdn-icons-png.flaticon.com/512/6062/6062189.png" width="80"/> Types of Machine Learning</h2></summary>
+
+### <img src="https://cdn-icons-png.flaticon.com/512/6229/6229938.png" width="70"/> Supervised Learning
 This is by far the most widely used type of ML in real-world applications.
 
 - **What it is:** You train a model on labeled data (i.e., the input and expected output are both known).
@@ -10,7 +77,7 @@ This is by far the most widely used type of ML in real-world applications.
   - Medical diagnosis
   - House price prediction
 
-### ✅ Popular Algorithms
+#### ✅ Popular Algorithms
 
 <details>
   <summary><img src="https://cdn-icons-png.flaticon.com/512/2620/2620536.png" width="50"/> Linear Regression</summary>
@@ -108,7 +175,7 @@ This is by far the most widely used type of ML in real-world applications.
 
 ---
 
-## <img src="https://cdn-icons-png.flaticon.com/512/6062/6062161.png" width="60"/> Unsupervised Learning
+### <img src="https://cdn-icons-png.flaticon.com/512/6062/6062161.png" width="60"/> Unsupervised Learning
 
 - **What it is:** The model tries to find patterns and groupings in the data without labeled outputs.
 - **Use Cases:**
@@ -123,7 +190,7 @@ This is by far the most widely used type of ML in real-world applications.
 
 ---
 
-## <img src="https://cdn-icons-png.flaticon.com/512/10087/10087719.png" width="60"/> Reinforcement Learning
+### <img src="https://cdn-icons-png.flaticon.com/512/10087/10087719.png" width="60"/> Reinforcement Learning
 
 - **What it is:** An agent learns to make decisions by interacting with an environment and getting feedback (rewards or penalties).
 - **Use Cases:**
@@ -134,7 +201,7 @@ This is by far the most widely used type of ML in real-world applications.
 
 ---
 
-## <img src="https://cdn-icons-png.flaticon.com/512/1713/1713891.png" width="60"/> Semi-Supervised Learning
+### <img src="https://cdn-icons-png.flaticon.com/512/1713/1713891.png" width="60"/> Semi-Supervised Learning
 
 - **What it is:** Combines a small amount of labeled data with a large amount of unlabeled data to improve learning when labeling is expensive.
 - **Use Cases:**
@@ -149,9 +216,11 @@ This is by far the most widely used type of ML in real-world applications.
   - Graph-based methods
 - **Python Libraries:** `scikit-learn`, `sklearn.semi_supervised`, `TensorFlow`, `PyTorch`
 
+</details>
+
 <hr/>
 
-# <img src="https://cdn-icons-png.flaticon.com/512/6062/6062189.png" width="80"/> Machine Learning Techniques
+<details> <summary> <h2><img src="https://cdn-icons-png.flaticon.com/512/6062/6062189.png" width="80"/> Machine Learning Techniques</h2></summary>
 
 - **Classification**  
   A supervised learning task where the model learns to categorize data into predefined **classes or labels**.  
@@ -181,9 +250,11 @@ This is by far the most widely used type of ML in real-world applications.
   A system that suggests **items** (movies, products, etc.) to users based on their preferences or behaviors.  
   **Example:** Netflix recommending **movies or shows** based on your watch history.
 
+</details>
+
 <hr/>
 
-# <img src="https://cdn-icons-png.flaticon.com/512/6062/6062189.png" width="80"/> Machine Learning Model Lifecycle
+<details> <summary> <h2><img src="https://cdn-icons-png.flaticon.com/512/6062/6062189.png" width="80"/> Machine Learning Model Lifecycle</h2></summary>
 
 - **Problem Definition**  
   Clearly define the **objective** of the machine learning task.  
