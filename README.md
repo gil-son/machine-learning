@@ -13,7 +13,7 @@ This is by far the most widely used type of ML in real-world applications.
 ### ✅ Popular Algorithms
 
 <details>
-  <summary><img src="https://cdn-user-icons.flaticon.com/195846/195846442/1744487422513.svg?token=exp=1744488323~hmac=5ae65620d3529f7af31a48da489995dc" width="50"/> Linear Regression</summary>
+  <summary><img src="https://cdn-icons-png.flaticon.com/512/2620/2620536.png" width="50"/> Linear Regression</summary>
 
 - **Concept:** Predicts a continuous value (e.g., student test score) based on one or more input features.
 - **Essential Math:**
@@ -27,7 +27,7 @@ This is by far the most widely used type of ML in real-world applications.
 </details>
 
 <details>
-  <summary><img src="https://cdn-user-icons.flaticon.com/195846/195846442/1744487377865.svg?token=exp=1744488299~hmac=57311090196dd99a26f684d0e4702208" width="50"/> Logistic Regression</summary>
+  <summary><img src="https://cdn-icons-png.flaticon.com/512/3295/3295481.png" width="50"/> Logistic Regression</summary>
 
 - **Concept:** Used for binary classification (e.g., pass/fail, spam/ham).
 - **Essential Math:**
@@ -43,7 +43,7 @@ This is by far the most widely used type of ML in real-world applications.
 </details>
 
 <details>
-  <summary><img src="https://cdn-user-icons.flaticon.com/195870/195870656/1744488394393.svg?token=exp=1744489295~hmac=2f63d1db72040fa1321d100cdad363ff" width="50"/> Decision Trees</summary>
+  <summary><img src="https://cdn-icons-png.flaticon.com/512/1960/1960357.png" width="50"/> Decision Trees</summary>
 
 - **Concept:** A flowchart-like structure where each internal node splits the data based on a feature.
 - **Essential Math:**
