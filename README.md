@@ -65,6 +65,19 @@ machine-learning/
 </details>
 
 
+<details> <summary> <h2><img src="https://cdn-icons-png.flaticon.com/512/6062/6062189.png" width="80"/> What is Machine Learning?</h2></summary>
+
+Machine Learning (ML) is a subset of Artificial Intelligence that allows systems to learn from experience (data) and improve their performance on a task without being explicitly programmed with rules.
+Instead of following hardcoded instructions, the system identifies patterns in data and uses those patterns to make predictions or decisions.
+
+<h3>Analogy:</h3>
+Think of a baby learning to recognize animals. At first, the baby is shown pictures of cats and dogs. Over time, the baby begins to notice patterns — cats have pointy ears, dogs often have longer snouts. Eventually, the baby can identify a new picture as a "dog" or "cat" based on what they’ve seen before — even without being told the rules. Machine Learning works in a similar way: it learns from examples instead of being told exactly what to do.
+
+<h3>Example:</h3>
+A machine learning model learns to recommend movies based on a user's viewing history and preferences — just like how a friend might suggest a movie based on what you’ve enjoyed before.
+
+</details>
+
 <details> <summary> <h2><img src="https://cdn-icons-png.flaticon.com/512/6062/6062189.png" width="80"/> Types of Machine Learning</h2></summary>
 
 ### <img src="https://cdn-icons-png.flaticon.com/512/6229/6229938.png" width="70"/> Supervised Learning
@@ -275,9 +288,10 @@ This is by far the most widely used type of ML in real-world applications.
 - **Model Deployment**  
   Integrate the trained model into a **production environment** where it can receive real input and make predictions.  
   **Example:** Deploying a fraud detection model via an API to monitor real-time transactions.
-
+</details>
 
 <hr/>
+
 <div align="center">
   <img src="https://i.ibb.co/kgNSnpv/git-support.png">
 </div>
