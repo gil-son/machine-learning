@@ -18,7 +18,7 @@ machine-learning/
 ├── README.md                             # High-level introduction to Machine Learning
 │
 ├── supervised/
-│   ├── concepts.md                       # Core concepts: labeled data, overfitting, etc.
+│   ├── 00.concepts.md                       # Core concepts: labeled data, overfitting, etc.
 │   ├── 01.linear_regression.md
 │   ├── 02.logistic_regression.md
 │   ├── 03.k_nearest_neighbors.md
@@ -32,7 +32,7 @@ machine-learning/
 │   └── notebooks/
 │
 ├── unsupervised/
-│   ├── concepts.md                       # Key ideas: clustering, dimensionality reduction, etc.
+│   ├── 00.concepts.md                       # Key ideas: clustering, dimensionality reduction, etc.
 │   ├── 01.k_means.md
 │   ├── 02.dbscan.md
 │   ├── 03.hierarchical_clustering.md
@@ -42,7 +42,7 @@ machine-learning/
 │   └── notebooks/
 │
 ├── reinforcement_learning/
-│   ├── concepts.md                       # Basics of agents, environments, rewards, etc.
+│   ├── 00.concepts.md                       # Basics of agents, environments, rewards, etc.
 │   ├── 01.q_learning.md
 │   ├── 02.sarsa.md
 │   ├── 03.deep_q_network.md
@@ -51,7 +51,7 @@ machine-learning/
 │   └── notebooks/
 │
 ├── semi_supervised_learning/
-│   ├── concepts.md                       # Hybrid between supervised and unsupervised
+│   ├── 00.concepts.md                       # Hybrid between supervised and unsupervised
 │   ├── 01.self_training.md
 │   ├── 02.label_propagation.md
 │   ├── algorithms/
