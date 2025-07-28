@@ -3,13 +3,13 @@
 
 This repository is a comprehensive guide to Machine Learning, designed to bridge theoretical concepts with practical, hands-on implementations. It serves as a learning lab for anyone—from beginners to practitioners—looking to deepen their understanding of core ML foundations and algorithms.
 
-🎯 Goals
-- 🧠 Demystify Machine Learning through structured explanations and illustrative examples
-- 🗂️ Organize ML algorithms into key paradigms: Supervised, Unsupervised, Semi-Supervised, and Reinforcement Learning
-- 💻 Enable experimentation with interactive Jupyter Notebooks for real-world learning
-- ➗ Support understanding of mathematical concepts and simplify complex topics like optimization, statistics, and linear algebra
+<img src="https://cdn-icons-png.flaticon.com/512/4333/4333345.png" width="40"/>  Goals
+- <img src="https://cdn-icons-png.flaticon.com/512/1960/1960248.png" width="40"/> Demystify Machine Learning through structured explanations and illustrative examples
+- <img src="https://cdn-icons-png.flaticon.com/512/10087/10087719.png" width="40"/> Organize ML algorithms into key paradigms: Supervised, Unsupervised, Semi-Supervised, and Reinforcement Learning
+- <img src="https://cdn-icons-png.flaticon.com/512/5555/5555413.png" width="40"/> Enable experimentation with interactive Jupyter Notebooks for real-world learning
+- <img src="https://cdn-icons-png.flaticon.com/512/4681/4681808.png" width="40"/> Support understanding of mathematical concepts and simplify complex topics like optimization, statistics, and linear algebra
 
- 
+
 <details> <summary> <h2><img src="https://cdn-icons-png.flaticon.com/512/18310/18310876.png" width="80"/>  Repository Structure </h2></summary>
   
 ```
