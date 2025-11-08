@@ -334,3 +334,35 @@ The learning rate $\alpha$ controls how large the steps are in each iteration. A
 | Gradient (bias)      | $b := b - \alpha \cdot \frac{\partial J}{\partial b}$     |
 
 ---
+
+### <img src="https://cdn-icons-png.flaticon.com/512/2147/2147809.png" width="80"> Code/Notebook/Projects
+
+- [Simple Linear Regression](https://github.com/gil-son/machine-learning/blob/main/supervised-learning/notebooks/simple-linear-regression/scikit-learn/Simple_Linear_Regression_v1.ipynb)
+
+---
+
+### <img src="https://cdn-icons-png.flaticon.com/512/2112/2112889.png" width="80"> Videos
+
+A few recommended resources to visualize how LLMs work:
+
+<div align="center">
+  <a href="https://www.youtube.com/watch?v=G9SreIKmRdc" target="_blank">
+      <img width="640" height="360" src="https://i.ytimg.com/vi/G9SreIKmRdc/hqdefault.jpg?sqp=-oaymwFBCOADEI4CSFryq4qpAzMIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB8AEB-AHUBoAC4AOKAgwIABABGA8gZShkMA8=&rs=AOn4CLCW-cEJh69qWVkhKv7w3xf_j-UU3Q"/>
+  </a>
+</div>
+<hr/>
+<div align="center">
+  <a href="https://www.youtube.com/watch?v=z35xmJ40bgY" target="_blank">
+      <img width="640" height="360" src="https://i.ytimg.com/vi/z35xmJ40bgY/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLD0FlY2V-_N-gdS2LVoCaEdTzmIsw"/>
+  </a>
+</div>
+<div align="center">
+  <a href="https://www.youtube.com/watch?v=WCP98USBZ0w" target="_blank">
+      <img width="640" height="360" src="https://i.ytimg.com/vi/WCP98USBZ0w/hqdefault.jpg?sqp=-oaymwEnCOADEI4CSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAi4w8TxGkYbmMeam_TPHl6GBhyvw"/>
+  </a>
+</div>
+<div align="center">
+  <a href="https://www.youtube.com/watch?v=Gpd14W4vDIQ" target="_blank">
+      <img width="640" height="360" src="https://i.ytimg.com/vi/Gpd14W4vDIQ/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLClccV-dhuSPGM3njGpRmhUbf0f7A"/>
+  </a>
+</div>
