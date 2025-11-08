@@ -350,17 +350,25 @@ A few recommended resources to visualize how LLMs work:
       <img width="640" height="360" src="https://i.ytimg.com/vi/G9SreIKmRdc/hqdefault.jpg?sqp=-oaymwFBCOADEI4CSFryq4qpAzMIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB8AEB-AHUBoAC4AOKAgwIABABGA8gZShkMA8=&rs=AOn4CLCW-cEJh69qWVkhKv7w3xf_j-UU3Q"/>
   </a>
 </div>
-<hr/>
+
+---
+
 <div align="center">
   <a href="https://www.youtube.com/watch?v=z35xmJ40bgY" target="_blank">
       <img width="640" height="360" src="https://i.ytimg.com/vi/z35xmJ40bgY/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLD0FlY2V-_N-gdS2LVoCaEdTzmIsw"/>
   </a>
 </div>
+
+---
+
 <div align="center">
   <a href="https://www.youtube.com/watch?v=WCP98USBZ0w" target="_blank">
       <img width="640" height="360" src="https://i.ytimg.com/vi/WCP98USBZ0w/hqdefault.jpg?sqp=-oaymwEnCOADEI4CSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAi4w8TxGkYbmMeam_TPHl6GBhyvw"/>
   </a>
 </div>
+
+---
+
 <div align="center">
   <a href="https://www.youtube.com/watch?v=Gpd14W4vDIQ" target="_blank">
       <img width="640" height="360" src="https://i.ytimg.com/vi/Gpd14W4vDIQ/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLClccV-dhuSPGM3njGpRmhUbf0f7A"/>
