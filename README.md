@@ -9,64 +9,9 @@ This repository is a comprehensive guide to Machine Learning, designed to bridge
 - <img src="https://cdn-icons-png.flaticon.com/512/5555/5555413.png" width="40"/> Enable experimentation with interactive Jupyter Notebooks for real-world learning
 - <img src="https://cdn-icons-png.flaticon.com/512/4681/4681808.png" width="40"/> Support understanding of mathematical concepts and simplify complex topics like optimization, statistics, and linear algebra
 
+---
 
-<details> <summary> <h2><img src="https://cdn-icons-png.flaticon.com/512/18310/18310876.png" width="80"/>  Repository Structure </h2></summary>
-  
-```
-machine-learning/
-│
-├── README.md                             # High-level introduction to Machine Learning
-│
-├── supervised/
-│   ├── 00.concepts.md                       # Core concepts: labeled data, overfitting, etc.
-│   ├── 01.linear_regression.md
-│   ├── 02.logistic_regression.md
-│   ├── 03.k_nearest_neighbors.md
-│   ├── 04.naive_bayes.md
-│   ├── 05.svm.md
-│   ├── 06.decision_trees.md
-│   ├── 07.random_forest.md
-│   ├── 08.gradient_boosting.md
-│   ├── 09.neural_networks.md
-│   ├── algorithms/
-│   └── notebooks/
-│
-├── unsupervised/
-│   ├── 00.concepts.md                       # Key ideas: clustering, dimensionality reduction, etc.
-│   ├── 01.k_means.md
-│   ├── 02.dbscan.md
-│   ├── 03.hierarchical_clustering.md
-│   ├── 04.pca.md
-│   ├── 05.tsne.md
-│   ├── algorithms/
-│   └── notebooks/
-│
-├── reinforcement_learning/
-│   ├── 00.concepts.md                       # Basics of agents, environments, rewards, etc.
-│   ├── 01.q_learning.md
-│   ├── 02.sarsa.md
-│   ├── 03.deep_q_network.md
-│   ├── 04.policy_gradient.md
-│   ├── algorithms/
-│   └── notebooks/
-│
-├── semi_supervised_learning/
-│   ├── 00.concepts.md                       # Hybrid between supervised and unsupervised
-│   ├── 01.self_training.md
-│   ├── 02.label_propagation.md
-│   ├── algorithms/
-│   └── notebooks/
-│
-└── shared_resources/
-    ├── datasets/                         # Sample datasets used across topics
-    ├── utils/                            # Reusable utility functions
-    └── references.md                     # Useful academic references and links
-```
-</details>
-
-<hr/>
-
-<details> <summary> <h2><img src="https://cdn-icons-png.flaticon.com/512/6062/6062189.png" width="80"/> What is Machine Learning?</h2></summary>
+<h2><img src="https://cdn-icons-png.flaticon.com/512/6062/6062189.png" width="80"/> What is Machine Learning?</h2>
 
 Machine Learning (ML) is a subset of Artificial Intelligence that allows systems to learn from experience (data) and improve their performance on a task without being explicitly programmed with rules.
 Instead of following hardcoded instructions, the system identifies patterns in data and uses those patterns to make predictions or decisions.
@@ -77,11 +22,11 @@ Think of a baby learning to recognize animals. At first, the baby is shown pictu
 <h3>Example:</h3>
 A machine learning model learns to recommend movies based on a user's viewing history and preferences — just like how a friend might suggest a movie based on what you’ve enjoyed before.
 
-</details>
 
-<hr/>
 
-<details> <summary> <h2><img src="https://cdn-icons-png.flaticon.com/512/6062/6062189.png" width="80"/> Types of Machine Learning</h2></summary>
+---
+
+<h2><img src="https://cdn-icons-png.flaticon.com/512/6062/6062189.png" width="80"/> Types of Machine Learning</h2>
 
 <h3><img src="https://cdn-icons-png.flaticon.com/512/6229/6229938.png" width="70"/> Supervised Learning </h3>
 This is by far the most widely used type of ML in real-world applications.
@@ -93,7 +38,7 @@ This is by far the most widely used type of ML in real-world applications.
   - Medical diagnosis
   - House price prediction
 
-<h4> ✅ Popular Algorithms </h4>
+<h4> Popular Algorithms </h4>
 
 <details>
   <summary><img src="https://cdn-icons-png.flaticon.com/512/2620/2620536.png" width="50"/> Linear Regression</summary>
@@ -189,7 +134,7 @@ This is by far the most widely used type of ML in real-world applications.
 
 </details>
 
-<hr/>
+---
 
 <h3> <img src="https://cdn-icons-png.flaticon.com/512/6062/6062161.png" width="60"/> Unsupervised Learning </h3>
 
@@ -204,7 +149,7 @@ This is by far the most widely used type of ML in real-world applications.
   - PCA (Principal Component Analysis)
 - **Python Libraries:** `scikit-learn`, `scipy`, `matplotlib`
 
-<hr/>
+---
 
 <h3> <img src="https://cdn-icons-png.flaticon.com/512/10087/10087719.png" width="60"/> Reinforcement Learning </h3>
 
@@ -215,7 +160,7 @@ This is by far the most widely used type of ML in real-world applications.
   - Self-driving cars
 - **Popular Libraries:** `OpenAI Gym`, `Stable-Baselines`, `TensorFlow`, `PyTorch`
 
-<hr/>
+---
 
 <h3> <img src="https://cdn-icons-png.flaticon.com/512/1713/1713891.png" width="60"/> Semi-Supervised Learning </h3>
 
@@ -234,9 +179,9 @@ This is by far the most widely used type of ML in real-world applications.
 
 </details>
 
-<hr/>
+---
 
-<details> <summary> <h2><img src="https://cdn-icons-png.flaticon.com/512/6062/6062189.png" width="80"/> Machine Learning Techniques</h2></summary>
+<h2><img src="https://cdn-icons-png.flaticon.com/512/6062/6062189.png" width="80"/> Machine Learning Techniques</h2>
 
 - **Classification**  
   A supervised learning task where the model learns to categorize data into predefined **classes or labels**.  
@@ -266,11 +211,11 @@ This is by far the most widely used type of ML in real-world applications.
   A system that suggests **items** (movies, products, etc.) to users based on their preferences or behaviors.  
   **Example:** Netflix recommending **movies or shows** based on your watch history.
 
-</details>
 
-<hr/>
 
-<details> <summary> <h2><img src="https://cdn-icons-png.flaticon.com/512/6062/6062189.png" width="80"/> Machine Learning Model Lifecycle</h2></summary>
+---
+
+<h2><img src="https://cdn-icons-png.flaticon.com/512/6062/6062189.png" width="80"/> Machine Learning Model Lifecycle</h2>
 
 - **Problem Definition**  
   Clearly define the **objective** of the machine learning task.  
@@ -291,9 +236,99 @@ This is by far the most widely used type of ML in real-world applications.
 - **Model Deployment**  
   Integrate the trained model into a **production environment** where it can receive real input and make predictions.  
   **Example:** Deploying a fraud detection model via an API to monitor real-time transactions.
-</details>
 
-<hr/>
+
+---
+
+<h2><img src="https://cdn-icons-png.flaticon.com/512/18310/18310876.png" width="80"/>  Repository Structure for the Future </h2>
+  
+```
+machine-learning/
+│
+├── README.md                             # High-level introduction to Machine Learning
+│
+evaluation/
+│
+├── README.md
+│
+├── metrics/
+│   ├── classification/
+│   │   ├── confusion_matrix.md
+│   │   ├── accuracy.md
+│   │   ├── precision.md
+│   │   ├── recall.md
+│   │   ├── f1_score.md
+│   │   ├── roc_auc.md
+│   │   └── log_loss.md
+│   │
+│   ├── regression/
+│   │   ├── mae.md
+│   │   ├── mse.md
+│   │   ├── rmse.md
+│   │   ├── r2_score.md
+│   │   └── mape.md
+│   │
+│   └── ranking/
+│       ├── precision_at_k.md
+│       ├── recall_at_k.md
+│       └── ndcg.md
+│
+├── validation/
+│   ├── train_test_split.md
+│   ├── cross_validation.md
+│   ├── k_fold.md
+│   ├── stratified_k_fold.md
+│   ├── leave_one_out.md
+│   ├── time_series_split.md
+│   ├── bootstrap.md
+│
+├── supervised/
+│   ├── README.md                       # Core concepts: labeled data, overfitting, etc.
+│   ├── 01.linear_regression.md
+│   ├── 02.logistic_regression.md
+│   ├── 03.k_nearest_neighbors.md
+│   ├── 04.naive_bayes.md
+│   ├── 05.svm.md
+│   ├── 06.decision_trees.md
+│   ├── 07.random_forest.md
+│   ├── 08.gradient_boosting.md
+│   ├── 09.neural_networks.md
+│   ├── algorithms/
+│   └── notebooks/
+│
+├── unsupervised/
+│   ├── README.md                       # Key ideas: clustering, dimensionality reduction, etc.
+│   ├── 01.k_means.md
+│   ├── 02.dbscan.md
+│   ├── 03.hierarchical_clustering.md
+│   ├── 04.pca.md
+│   ├── 05.tsne.md
+│   ├── algorithms/
+│   └── notebooks/
+│
+├── reinforcement_learning/
+│   ├── README.md                       # Basics of agents, environments, rewards, etc.
+│   ├── 01.q_learning.md
+│   ├── 02.sarsa.md
+│   ├── 03.deep_q_network.md
+│   ├── 04.policy_gradient.md
+│   ├── algorithms/
+│   └── notebooks/
+│
+├── semi_supervised_learning/
+│   ├── README.md                       # Hybrid between supervised and unsupervised
+│   ├── 01.self_training.md
+│   ├── 02.label_propagation.md
+│   ├── algorithms/
+│   └── notebooks/
+│
+└── shared_resources/
+    ├── datasets/                         # Sample datasets used across topics
+    ├── utils/                            # Reusable utility functions
+    └── references.md                     # Useful academic references and links
+```
+
+---
 
 <div align="center">
   <img src="https://i.ibb.co/kgNSnpv/git-support.png">
