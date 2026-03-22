@@ -11,24 +11,24 @@ This repository is a comprehensive guide to Machine Learning, designed to bridge
 
 ---
 
-<h2><img src="https://cdn-icons-png.flaticon.com/512/6062/6062189.png" width="80"/> What is Machine Learning?</h2>
+## <img src="https://cdn-icons-png.flaticon.com/512/6062/6062189.png" width="80"/> What is Machine Learning? 
 
 Machine Learning (ML) is a subset of Artificial Intelligence that allows systems to learn from experience (data) and improve their performance on a task without being explicitly programmed with rules.
 Instead of following hardcoded instructions, the system identifies patterns in data and uses those patterns to make predictions or decisions.
 
-<h3>Analogy:</h3>
+ ### Analogy:
 Think of a baby learning to recognize animals. At first, the baby is shown pictures of cats and dogs. Over time, the baby begins to notice patterns — cats have pointy ears, dogs often have longer snouts. Eventually, the baby can identify a new picture as a "dog" or "cat" based on what they’ve seen before — even without being told the rules. Machine Learning works in a similar way: it learns from examples instead of being told exactly what to do.
 
-<h3>Example:</h3>
+ ### Example:
 A machine learning model learns to recommend movies based on a user's viewing history and preferences — just like how a friend might suggest a movie based on what you’ve enjoyed before.
 
 
 
 ---
 
-<h2><img src="https://cdn-icons-png.flaticon.com/512/6062/6062189.png" width="80"/> Types of Machine Learning</h2>
+## <img src="https://cdn-icons-png.flaticon.com/512/6062/6062189.png" width="80"/> Types of Machine Learning 
 
-<h3><img src="https://cdn-icons-png.flaticon.com/512/6229/6229938.png" width="70"/> Supervised Learning </h3>
+ ### <img src="https://cdn-icons-png.flaticon.com/512/6229/6229938.png" width="70"/> Supervised Learning 
 This is by far the most widely used type of ML in real-world applications.
 
 - **What it is:** You train a model on labeled data (i.e., the input and expected output are both known).
@@ -38,7 +38,7 @@ This is by far the most widely used type of ML in real-world applications.
   - Medical diagnosis
   - House price prediction
 
-<h4> Popular Algorithms </h4>
+#### Popular Algorithms
 
 <details>
   <summary><img src="https://cdn-icons-png.flaticon.com/512/2620/2620536.png" width="50"/> Linear Regression</summary>
@@ -136,7 +136,7 @@ This is by far the most widely used type of ML in real-world applications.
 
 ---
 
-<h3> <img src="https://cdn-icons-png.flaticon.com/512/6062/6062161.png" width="60"/> Unsupervised Learning </h3>
+ ###  <img src="https://cdn-icons-png.flaticon.com/512/6062/6062161.png" width="60"/> Unsupervised Learning 
 
 - **What it is:** The model tries to find patterns and groupings in the data without labeled outputs.
 - **Use Cases:**
@@ -151,7 +151,7 @@ This is by far the most widely used type of ML in real-world applications.
 
 ---
 
-<h3> <img src="https://cdn-icons-png.flaticon.com/512/10087/10087719.png" width="60"/> Reinforcement Learning </h3>
+ ###  <img src="https://cdn-icons-png.flaticon.com/512/10087/10087719.png" width="60"/> Reinforcement Learning 
 
 - **What it is:** An agent learns to make decisions by interacting with an environment and getting feedback (rewards or penalties).
 - **Use Cases:**
@@ -162,7 +162,7 @@ This is by far the most widely used type of ML in real-world applications.
 
 ---
 
-<h3> <img src="https://cdn-icons-png.flaticon.com/512/1713/1713891.png" width="60"/> Semi-Supervised Learning </h3>
+ ###  <img src="https://cdn-icons-png.flaticon.com/512/1713/1713891.png" width="60"/> Semi-Supervised Learning 
 
 - **What it is:** Combines a small amount of labeled data with a large amount of unlabeled data to improve learning when labeling is expensive.
 - **Use Cases:**
@@ -179,9 +179,332 @@ This is by far the most widely used type of ML in real-world applications.
 
 </details>
 
+
+ ###  <td align="center"><img src="https://cdn-icons-png.flaticon.com/512/2299/2299623.png" width="60"/> Types of Data 
+
+
+Machine learning problems and evaluation metrics depend heavily on the **type of data** being used.  
+Understanding data types helps determine:
+
+- Which algorithm to use
+- Which preprocessing steps to apply
+- Which evaluation metrics are appropriate
+
+
+```mermaid
+
+flowchart TD
+    A[Data Types] --> B[Numerical]
+    A --> C[Categorical]
+    A --> D[Binary]
+    A --> E[Time Series]
+    A --> F[Text]
+    A --> G[Image]
+    A --> H[Tabular]
+
+    B --> B1[Discrete]
+    B --> B2[Continuous]
+
+    C --> C1[Nominal]
+    C --> C2[Ordinal]
+```
+
 ---
 
-<h2><img src="https://cdn-icons-png.flaticon.com/512/6062/6062189.png" width="80"/> Machine Learning Techniques</h2>
+
+<details>
+
+#### Numerical Data  
+
+Numerical data represents **quantitative values** and can be measured.
+
+Examples:
+
+- Age: 25
+- Salary: 5000
+- Temperature: 22.5°C
+- House price: 350000
+
+#####  Types of Numerical Data </h5>
+
+**Discrete**  
+Integer values (counts)
+
+- Number of customers
+- Number of clicks
+- Number of purchases
+
+**Continuous**  
+Real values (measurements)
+
+- Height
+- Weight
+- Time
+- Price
+
+Used in:
+
+- Regression
+- Forecasting
+- Time series
+
+
+```mermaid
+graph TD
+    A[Numerical Data] --> B[Discrete]
+    A --> C[Continuous]
+
+    B --> B1[Counts]
+    B --> B2[Integer values]
+
+    C --> C1[Measurements]
+    C --> C2[Real numbers]
+```
+
+---
+
+#### Categorical Data 
+
+Categorical data represents **labels or categories**.
+
+Examples:
+
+- Color: Red, Blue, Green
+- Country: Brazil, USA, Canada
+- Payment method: Credit Card, Pix, Cash
+
+### Types of Categorical Data
+
+#### Nominal (No order)
+
+- Dog, Cat, Bird
+- Red, Blue, Green
+- Male, Female
+
+No ranking exists.
+
+#### Ordinal (Has order)
+
+- Small, Medium, Large
+- Low, Medium, High
+- Bronze, Silver, Gold
+
+Ranking exists, but distances are not meaningful.
+
+Used in:
+
+- Classification
+- Segmentation
+- Decision trees
+
+
+```mermaid
+graph TD
+    A[Categorical Data] --> B[Nominal]
+    A --> C[Ordinal]
+
+    B --> B1[No order]
+    B --> B2[Labels]
+
+    C --> C1[Ordered categories]
+    C --> C2[Ranking exists]
+```
+
+---
+
+### Binary Data
+
+Binary data is a special case of categorical data with **two values**.
+
+Examples:
+
+- Yes / No
+- True / False
+- Spam / Not Spam
+- Fraud / Not Fraud
+
+Used in:
+
+- Binary classification
+- Logistic regression
+- Precision / Recall / F1 evaluation
+
+
+```mermaid
+graph TD
+    A[Binary Data] --> B[Yes / No]
+    A --> C[True / False]
+    A --> D[0 / 1]
+    A --> E[Spam / Not Spam]
+```
+
+---
+
+#### Time Series Data
+
+Data indexed by **time order**.
+
+Examples:
+
+- Stock prices
+- Sales per day
+- Temperature over time
+- Website traffic
+
+Characteristics:
+
+- Order matters
+- Cannot shuffle randomly
+- Requires special validation
+
+Used in:
+
+- Forecasting
+- Anomaly detection
+- Sequential models
+
+
+```mermaid
+graph TD
+    A[Time Series Data] --> B[Ordered by Time]
+    A --> C[Temporal Dependency]
+    A --> D[Trend]
+    A --> E[Seasonality]
+
+```
+
+
+---
+
+#### Text Data
+
+Unstructured textual information.
+
+Examples:
+
+- Emails
+- Reviews
+- Tweets
+- Documents
+
+Requires preprocessing:
+
+- Tokenization
+- Embeddings
+- Vectorization
+
+Used in:
+
+- NLP
+- Sentiment analysis
+- Classification
+
+
+```mermaid
+graph TD
+    A[Text Data] --> B[Unstructured]
+    A --> C[Requires Processing]
+
+    C --> D[Tokenization]
+    C --> E[Embedding]
+    C --> F[Vectorization]
+
+```
+
+---
+
+### Image Data
+
+Visual pixel-based data.
+
+Examples:
+
+- Photos
+- Medical images
+- Satellite images
+
+Used in:
+
+- Computer Vision
+- Object detection
+- Image classification
+
+
+```mermaid
+graph TD
+    A[Image Data] --> B[Pixels]
+    A --> C[Channels]
+
+    C --> D[RGB]
+    C --> E[Grayscale]
+
+    A --> F[Computer Vision Tasks]
+```
+
+---
+
+### Tabular Data
+
+Most common structured format (rows and columns).
+
+Example:
+
+| Age | Salary | Country | Bought |
+|-----|--------|--------|--------|
+| 25  | 3000   | Brazil | Yes |
+| 40  | 8000   | USA | No |
+
+Used in:
+
+- Most ML problems
+- Classification
+- Regression
+
+
+```mermaid
+graph TD
+    A[Tabular Data] --> B[Rows]
+    A --> C[Columns]
+    A --> D[Features]
+    A --> E[Target]
+```
+
+---
+
+### Data Type vs Problem Type
+
+| Data Type | Typical Task |
+|----------|-------------|
+| Numerical | Regression |
+| Categorical | Classification |
+| Binary | Binary Classification |
+| Time Series | Forecasting |
+| Text | NLP |
+| Image | Computer Vision |
+| Tabular | General ML |
+
+---
+
+### Why This Matters for Evaluation
+
+The **data type determines the evaluation metric**:
+
+| Data Type | Task | Metrics |
+|-----------|------|--------|
+| Categorical | Classification | Accuracy, F1 |
+| Binary | Classification | Precision, Recall |
+| Numerical | Regression | MAE, MSE |
+| Ranking | Retrieval | Precision@K |
+| Time Series | Forecasting | MAE, RMSE |
+
+
+</details>
+
+
+
+---
+
+## <img src="https://cdn-icons-png.flaticon.com/512/6062/6062189.png" width="80"/> Machine Learning Techniques 
 
 - **Classification**  
   A supervised learning task where the model learns to categorize data into predefined **classes or labels**.  
@@ -215,7 +538,7 @@ This is by far the most widely used type of ML in real-world applications.
 
 ---
 
-<h2><img src="https://cdn-icons-png.flaticon.com/512/6062/6062189.png" width="80"/> Machine Learning Model Lifecycle</h2>
+## <img src="https://cdn-icons-png.flaticon.com/512/6062/6062189.png" width="80"/> Machine Learning Model Lifecycle 
 
 - **Problem Definition**  
   Clearly define the **objective** of the machine learning task.  
@@ -240,7 +563,7 @@ This is by far the most widely used type of ML in real-world applications.
 
 ---
 
-<h2><img src="https://cdn-icons-png.flaticon.com/512/18310/18310876.png" width="80"/>  Repository Structure for the Future </h2>
+## <img src="https://cdn-icons-png.flaticon.com/512/18310/18310876.png" width="80"/>  Repository Structure for the Future  
   
 ```
 machine-learning/
