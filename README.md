@@ -180,7 +180,7 @@ This is by far the most widely used type of ML in real-world applications.
 </details>
 
 
- ###  <td align="center"><img src="https://cdn-icons-png.flaticon.com/512/2299/2299623.png" width="60"/> Types of Data 
+ ##  <td align="center"><img src="https://cdn-icons-png.flaticon.com/512/2299/2299623.png" width="60"/> Types of Data 
 
 
 Machine learning problems and evaluation metrics depend heavily on the **type of data** being used.  
@@ -214,7 +214,7 @@ flowchart TD
 
 <details>
 
-#### Numerical Data  
+### Numerical Data  
 
 Numerical data represents **quantitative values** and can be measured.
 
@@ -225,7 +225,7 @@ Examples:
 - Temperature: 22.5°C
 - House price: 350000
 
-#####  Types of Numerical Data </h5>
+####  Types of Numerical Data </h5>
 
 **Discrete**  
 Integer values (counts)
@@ -263,7 +263,7 @@ graph TD
 
 ---
 
-#### Categorical Data 
+### Categorical Data 
 
 Categorical data represents **labels or categories**.
 
@@ -273,9 +273,9 @@ Examples:
 - Country: Brazil, USA, Canada
 - Payment method: Credit Card, Pix, Cash
 
-### Types of Categorical Data
+#### Types of Categorical Data
 
-#### Nominal (No order)
+**Nominal** (No order)
 
 - Dog, Cat, Bird
 - Red, Blue, Green
@@ -283,7 +283,7 @@ Examples:
 
 No ranking exists.
 
-#### Ordinal (Has order)
+**Ordinal** (Has order)
 
 - Small, Medium, Large
 - Low, Medium, High
