@@ -570,12 +570,12 @@ machine-learning/
 │
 ├── README.md                             # High-level introduction to Machine Learning
 │
-evaluation/
+evaluations/
 │
 ├── README.md
 │
-├── metrics/
-│   ├── classification/
+├── 01.metrics/
+│   ├── 01.classification/
 │   │   ├── confusion_matrix.md
 │   │   ├── accuracy.md
 │   │   ├── precision.md
@@ -584,19 +584,19 @@ evaluation/
 │   │   ├── roc_auc.md
 │   │   └── log_loss.md
 │   │
-│   ├── regression/
+│   ├── 02.regression/
 │   │   ├── mae.md
 │   │   ├── mse.md
 │   │   ├── rmse.md
 │   │   ├── r2_score.md
 │   │   └── mape.md
 │   │
-│   └── ranking/
+│   └── 03.ranking/
 │       ├── precision_at_k.md
 │       ├── recall_at_k.md
 │       └── ndcg.md
 │
-├── validation/
+├── 02.validation/
 │   ├── train_test_split.md
 │   ├── cross_validation.md
 │   ├── k_fold.md
