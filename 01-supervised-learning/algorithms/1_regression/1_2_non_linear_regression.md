@@ -1,0 +1,3 @@
+- Polynomial regression
+- Exponential / logarithmic
+- When to use non-linear vs linear

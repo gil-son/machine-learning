@@ -10,7 +10,7 @@ We've explored [Decision Trees](https://github.com/gil-son/machine-learning/blob
 
 ## 🤝 What is a Random Forest?
 
-A **Random Forest** is a **supervised learning algorithm** for **classification** and **regression**. It trains multiple decision trees and outputs the mode (classification) or mean/average (regression) of their predictions.
+A **Random Forest** is a **Ensemble Learning:** and combine **supervised learning algorithm** for **classification** and **regression**. It trains multiple decision trees and outputs the mode (classification) or mean/average (regression) of their predictions.
 
 Key ideas:
 
