@@ -430,7 +430,7 @@ This model is already linear in `ln(x)`, so fitting it requires only transformin
 
 ---
 
-## When to Use Non-Linear vs Linear <img src="https://gitlab.com/gil-son/useful-images-collection/-/raw/main/png/ml-dr-wily-smilling.png?ref_type=heads" width="6%">
+## When to Use Non-Linear vs Linear <img src="https://gitlab.com/gil-son/useful-images-collection/-/raw/main/png/ml-megaman-protoman-compare.png?ref_type=heads" width="10%">
 
 Choosing between linear and non-linear regression is one of the first decisions to make when modelling data. The wrong choice leads to systematic errors that more data or better tuning cannot fix.
 
@@ -474,7 +474,7 @@ Non-linear models — especially high-degree polynomials — can memorize traini
 
 ---
 
-## Error and the Cost Function
+## Error and the Cost Function <img src="https://gitlab.com/gil-son/useful-images-collection/-/raw/main/png/ml-dr-wily-smilling.png?ref_type=heads" width="6%">
 
 Non-linear regression uses the same error metrics as linear regression. The cost function is still MSE — what changes is only the shape of the hypothesis function.
 
@@ -561,6 +561,13 @@ The partial derivative `dJ/d_theta_j` is computed with respect to the specific n
 
 ## Recommended Videos <img src="https://gitlab.com/gil-son/useful-images-collection/-/raw/main/png/ml-eddie-dropping-video.png?ref_type=heads" width="5%">
 
+<div align="center">
+  <a href="https://www.youtube.com/watch?v=8WkgHyqLAUQ" target="_blank">
+      <img width="640" height="360" src="https://i.ytimg.com/vi/8WkgHyqLAUQ/hqdefault.jpg?sqp=-oaymwEnCOADEI4CSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDMkVDFBMZf988aWGShAcayjq7TlQ"/>
+  </a>
+</div>
+
+---
 <div align="center">
   <a href="https://www.youtube.com/watch?v=nGcMl03LPC0" target="_blank">
       <img width="640" height="360" src="https://i.ytimg.com/vi/nGcMl03LPC0/hqdefault.jpg"/>
