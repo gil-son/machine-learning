@@ -130,12 +130,15 @@ Where:
 
   **Step 4 — The Fitted Tree:**
 
-  ```
-       [hours <= 4.5?]
-       /             \
-     YES              NO
-      |                |
-  predict Fail    predict Pass
+  ```mermaid
+  flowchart TD
+      A["🌿 Root node\nhours <= 4.5?\nn=10 | H=0.9710 | G=0.4800"]
+      A -->|YES| B["🍂 Leaf\npredict: Fail\nn=4 | H=0.0 | G=0.0\n{4 Fail, 0 Pass}"]
+      A -->|NO| C["🍂 Leaf\npredict: Pass\nn=6 | H=0.0 | G=0.0\n{0 Fail, 6 Pass}"]
+
+      style A fill:#f0c040,stroke:#b8860b,color:#000
+      style B fill:#ff6b6b,stroke:#c0392b,color:#fff
+      style C fill:#51cf66,stroke:#2f9e44,color:#fff
   ```
 
   **Prediction Example:**
@@ -250,12 +253,26 @@ Where `S` is the current node's sample set, `Sₗ` and `Sᵣ` are the left and r
 
   **Step 4 — The Fitted Tree:**
 
-  ```
-         [hours <= 5.5?]
-         /              \
-       YES               NO
-        |                 |
-   predict Fail      predict Pass
+  ```mermaid
+  flowchart TD
+      A["🌿 Root node\nhours <= 5.5?\nn=9 | H=0.9911 | G=0.4938\nFeatures considered: hours ✓  sleep ✗"]
+      A -->|YES| B["🍂 Leaf\npredict: Fail\nn=4 | H=0.0 | G=0.0\n{4 Fail, 0 Pass}"]
+      A -->|NO| C["🍂 Leaf\npredict: Pass\nn=5 | H=0.0 | G=0.0\n{0 Fail, 5 Pass}"]
+
+      D["💤 sleep features\nIG best = 0.5900\n❌ not chosen"]
+      E["📚 hours feature\nIG best = 0.9911\n✅ chosen"]
+
+      F["Candidate splits evaluated at root"]
+      F --> D
+      F --> E
+      E --> A
+
+      style A fill:#f0c040,stroke:#b8860b,color:#000
+      style B fill:#ff6b6b,stroke:#c0392b,color:#fff
+      style C fill:#51cf66,stroke:#2f9e44,color:#fff
+      style D fill:#adb5bd,stroke:#6c757d,color:#000
+      style E fill:#74c0fc,stroke:#1971c2,color:#000
+      style F fill:#e9ecef,stroke:#adb5bd,color:#000
   ```
 
   **Step 5 — Prediction Examples:**
