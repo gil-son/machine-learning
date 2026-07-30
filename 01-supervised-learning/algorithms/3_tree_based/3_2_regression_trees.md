@@ -554,3 +554,18 @@ If the chosen regularization strength exceeds α = 4.0, this subtree is pruned.
 
 ---
 
+## Recommended Videos <img src="https://gitlab.com/gil-son/useful-images-collection/-/raw/main/png/ml-eddie-dropping-video.png?ref_type=heads" width="5%">
+
+<div align="center">
+  <a href="https://www.youtube.com/watch?v=UhY5vPfQIrA" target="_blank">
+      <img width="640" height="360" src="https://i.ytimg.com/vi/UhY5vPfQIrA/hqdefault.jpg"/>
+  </a>
+</div>
+
+---
+
+<div align="center">
+  <a href="https://www.youtube.com/watch?v=g9c66TUylZ4" target="_blank">
+      <img width="640" height="360" src=""/>
+  </a>
+</div>
