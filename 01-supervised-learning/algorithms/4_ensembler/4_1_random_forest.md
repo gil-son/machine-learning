@@ -327,7 +327,7 @@ Because each tree trains on ~63.2% of the data, the remaining ~36.8% (the OOB se
 - **Definition:** For each training sample, collect predictions only from trees that did NOT train on that sample, then compare to the true label.
 - **Formula (classification):**
 
-$$\text{OOB error} = \frac{1}{n} \sum_{i=1}^{n} \mathbf{1}\left[ \text{majority\_vote}_{t: i \notin B_t}(\hat{y}_t(x_i)) \neq y_i \right]$$
+$$\text{OOB error} = \frac{1}{n} \sum_{i=1}^{n} \mathbf{1}\left[ \underset{t:\, i \notin B_{t}}{\text{majority vote}}\,(\hat{y}_{t}(x_i)) \neq y_i \right]$$
 
 - **Interpretation:** An unbiased estimate of the generalization error. When OOB error stabilizes as more trees are added, training can stop.
 
