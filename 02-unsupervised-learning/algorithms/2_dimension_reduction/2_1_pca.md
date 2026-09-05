@@ -504,8 +504,7 @@ Step 6: S1 approx = [−14.5495] @ [[0.2158, 0.9764]] + [5.4286, 66.1429]
 
 ## Code / Notebooks / Projects <img src="https://gitlab.com/gil-son/useful-images-collection/-/raw/main/png/ml-protoman-with-notebook.png?ref_type=heads" width="9%">
 
-- [PCA — Scikit-learn](https://github.com/gil-son/machine-learning/blob/main/unsupervised-learning/notebooks/dimension_reduction/pca/scikit-learn/PCA-v1.ipynb)
-- [t-SNE and UMAP comparison](https://github.com/gil-son/machine-learning/blob/main/unsupervised-learning/notebooks/dimension_reduction/pca/scikit-learn/tSNE-UMAP-v1.ipynb)
+- PCA - *(coming soon)*
 
 ---
 
