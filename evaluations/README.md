@@ -1,10 +1,10 @@
-# Evaluation
+# Evaluation <img src="https://gitlab.com/gil-son/useful-images-collection/-/raw/main/png/ml-bird.png?ref_type=heads" width="5%">
 
 <p align="center">
-  <img src="https://gitlab.com/gil-son/useful-images-collection/-/raw/main/png/megaman-ml-evaluation.png?ref_type=heads" width="100%">
+  <img src="https://gitlab.com/gil-son/useful-images-collection/-/raw/main/png/ml-evaluation.png?ref_type=heads" width="100%">
 </p>
 
-## <img src="https://cdn-icons-png.flaticon.com/512/8592/8592294.png" width="80"/>  Overview
+## Overview <img src="https://gitlab.com/gil-son/useful-images-collection/-/raw/main/png/ml-megaman-protoman-compare.png?ref_type=heads" width="12%">
 
 Model evaluation is the process of measuring how well a machine learning model performs on unseen data.  
 It helps determine whether a model is **accurate**, **generalizable**, and **ready for production**.
@@ -16,7 +16,7 @@ Evaluation is typically divided into two main components:
 
 ---
 
-## <td align="center"><img src="https://cdn-icons-png.flaticon.com/512/5557/5557844.png" width="80"/> Why Evaluation Matters
+## Why Evaluation Matters <img src="https://gitlab.com/gil-son/useful-images-collection/-/raw/main/png/ml-mega-man-thinking-with-coffee.png?ref_type=heads" width="5%">
 
 Without proper evaluation:
 
@@ -27,29 +27,7 @@ Without proper evaluation:
 
 Evaluation ensures the model generalizes to **real-world data**.
 
----
-
-## <td align="center"><img src="https://cdn-icons-png.flaticon.com/512/7527/7527144.png" width="80"/>  Evaluation Pipeline
-
-```
-Dataset
-   ↓
-Train / Validation Split
-   ↓
-Model Training
-   ↓
-Predictions
-   ↓
-Evaluation Metrics
-   ↓
-Model Selection
-```
-
-> **Note:** this pipeline describes supervised (and, loosely, unsupervised) evaluation. Reinforcement learning doesn't fit a train/test split — its evaluation loop is agent → environment interaction → rollout → reward-based metrics, described in the RL Metrics section below.
-
----
-
-## <td align="center"><img src="https://cdn-icons-png.flaticon.com/512/6061/6061551.png" width="80"/> Types of Evaluation Metrics <td align="center"><img src="https://cdn-icons-png.flaticon.com/512/5567/5567532.png" width="80"/>
+## Types of Evaluation Metrics <img src="https://gitlab.com/gil-son/useful-images-collection/-/raw/main/png/ml-dr-light.png?ref_type=heads" width="8%">
 
 ### Classification Metrics
 Used when predicting **categories**
@@ -198,7 +176,7 @@ Used for:
 
 ---
 
-## <td align="center"><img src="https://cdn-icons-png.flaticon.com/512/3193/3193565.png" width="80"/> Validation Strategies
+## Validation Strategies <img src="https://gitlab.com/gil-son/useful-images-collection/-/raw/main/png/ml-protoman-with-notebook.png?ref_type=heads" width="9%">
 
 Evaluation metrics must be computed on **unseen data**.  
 Validation strategies define how the data is split.
@@ -217,7 +195,7 @@ Common approaches:
 
 ---
 
-## <td align="center"><img src="https://cdn-icons-png.flaticon.com/512/5567/5567532.png" width="80"/> Choosing the Right Metric
+## Choosing the Right Metric <td align="center"><img src="https://cdn-icons-png.flaticon.com/512/5567/5567532.png" width="80"/> 
 
 Different problems require different metrics:
 
