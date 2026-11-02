@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://gitlab.com/gil-son/useful-images-collection/-/raw/main/png/ml-megaman-protoman-thinking.png?ref_type=heads" width="100%">
+  <img src="https://media.licdn.com/dms/image/v2/D4D22AQGhzzOztef7Lg/feedshare-shrink_800/B4DaCqP62QHwAc-/0/1789562695316?e=1795046400&v=beta&t=Pdi2p_iPC0AFEzvDQksG8hq9WVnhYSlsvnIX8_cDD0U" width="100%">
 </p>
 
 
